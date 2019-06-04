@@ -8,7 +8,7 @@ const domElementGetter = () => document.getElementById('angularjs');
 const angularLifecycles = singleSpaAngularJS({
   angular,
   domElementGetter,
-  mainAngularModule: 'single-spa-app',
+  mainAngularModule: 'spa-module-ng1',
   preserveGlobal: false,
   template: '<home />',
 });

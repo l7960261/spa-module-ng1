@@ -1,4 +1,4 @@
 import angular from 'angular';
 
 angular
-.module('single-spa-app', [])
+.module('spa-module-ng1', [])
