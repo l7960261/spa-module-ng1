@@ -1,5 +1,5 @@
 angular
 .module('spa-module-ng1')
-.component('home', {
+.component('rootNg1', {
   template: '<h1>This is AngularJS project</h1>'
 });

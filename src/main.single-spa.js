@@ -10,7 +10,7 @@ const angularLifecycles = singleSpaAngularJS({
   domElementGetter,
   mainAngularModule: 'spa-module-ng1',
   preserveGlobal: false,
-  template: '<home />',
+  template: '<root-ng1 />',
 });
 
 export const bootstrap = [
